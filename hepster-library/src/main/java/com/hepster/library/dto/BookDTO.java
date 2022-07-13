@@ -15,9 +15,10 @@ import lombok.NoArgsConstructor;
 @Builder
 public class BookDTO {
 	
+	@NotNull(message = "Enter a valid UUID")
 	private UUID bookId;
 	
-	@NotEmpty(message = "Enter a valid title")
+	@NotNull(message = "Enter a valid title")
 	private String title;
 	
 	private String author;
