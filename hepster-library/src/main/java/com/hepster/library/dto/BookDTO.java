@@ -3,6 +3,7 @@ package com.hepster.library.dto;
 import java.util.UUID;
 
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
